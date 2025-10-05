@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Calorie Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Daily Calorie Tracker</h1>
+
+    <label for="goal">Daily Calorie Goal:</label>
+    <input type="number" id="goal" placeholder="ใส่เป้าหมายแคลอรี่ที่ต้องกินในหนึ่งวัน">
+
+    <h2>Meals</h2>
+    <label for="breakfast">Breakfast :</label>
+    <input type="number" id="breakfast" placeholder="แคลอรี่มื้อเช้า">
+
+    <label for="lunch">Lunch :</label>
+    <input type="number" id="lunch" placeholder="แคลอรี่มื้อกลางวัน">
+
+    <label for="dinner">Dinner :</label>
+    <input type="number" id="dinner" placeholder="แคลอรี่มื้อเย็น">
+
+    <div class="results">
+      <p><strong>Total Consumed:</strong> <span id="total">0</span> kcal</p>
+      <p><strong>Remaining:</strong> <span id="remaining">0</span> kcal</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
